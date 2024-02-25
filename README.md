@@ -1,7 +1,6 @@
 # Connect-A-Ton
 
-Connect-A-Ton ( CAT ) was a fun game platform created as part of [Make-A-Ton](https://makeaton.in) one of south India's largest yearly hackathon. I then decided to release CAT as an independent product after the huge popularity it received during the hackathon. So for all you guys who wanted to use CAT for your own events, here you go.
-
+Connect-A-Ton ( CAT ) was a fun game platform.
 ## Installation
 
 CAT is created entirely using Django and it comes as a batteries included package. In essence, you need only this repo to get setup and running. CAT uses Postgres as it's primary database, but don't  worry you don't have to install and configure postgres as there is a docker-compose included that will take care of setting up the DB with required users and other configs.
