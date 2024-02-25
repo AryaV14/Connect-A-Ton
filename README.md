@@ -110,12 +110,5 @@ According to you what is the best FOSS project
 ## Questions and Feedback
 If you are facing any problem feel free to open an issue or mail me a stack overflow question with connect-a-ton as the tag. All pull requests are always welcome.
 
-## Contact Me
+## Thala: Rohit T P
 
-**Mail me @**  [tprohit9@gmail.com](mailto:tprohit9@gmail.com)
-
-**Catch me on**  [Stackoverflow](https://stackoverflow.com/users/10182024/rohi)
-
-**Check out my YouTube**  [Channel](https://www.youtube.com/channel/UCVRdZwluF8jYXSIaHBqK73w)
-
-**Follow me on**  [Instagram](https://www.instagram.com/rohit_pnr/)
