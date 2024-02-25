@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <h2>Select Your Campus</h2>
+        <form method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="campusSelect">Choose your campus:</label>
+                <select id="campusSelect" name="campus" class="form-control">
+                    {% for code, campus in campuses %}
+                        <option value="{{ code }}">{{ campus }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+{% endblock %}
