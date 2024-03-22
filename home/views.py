@@ -85,6 +85,19 @@ def answer_view(request):
 
     # get the user's question config
     config = get_object_or_404(UserConfig, user=request.user)
+    # question = None
+    # if not is_self:
+    #     if config.campus:
+    #         questions = Question.objects.filter(campus=config.campus).exclude(id__in=config.self_questions.all())
+    #         if questions.exists():
+    #             question = random.choice(questions)
+    #     else:
+    #         questions = Question.objects.exclude(id__in=config.self_questions.all())
+    #         if questions.exists():
+    #             question = random.choice(questions)
+    # else:
+    #     question = answer.question
+
     if is_self:
         answer.answer = answer_value
         answer.save()
